@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot]("404_Not-found.png")
+![screenshot](".404_Not-found.png")
 
 ### Built With
 
