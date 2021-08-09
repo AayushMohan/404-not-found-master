@@ -36,8 +36,8 @@
 
 ## Overview
 
-![screenshot]-[404_Not-Found] (https://user-images.githubusercontent.com/66319691/128740022-194f2154-e907-42ad-9c1e-60cce19f6bbd.png)
-")
+![screenshot](https://user-images.githubusercontent.com/66319691/128740022-194f2154-e907-42ad-9c1e-60cce19f6bbd.png)
+
 
 ### Built With
 
