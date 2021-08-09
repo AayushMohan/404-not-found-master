@@ -59,5 +59,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/AayushMohan)
-- Twitter [@your-twitter](https://twitter.com/AayushMohan)
+- GitHub [@AayushMohan](https://github.com/AayushMohan)
+- Twitter [@AayushMohan](https://twitter.com/AayushMohan)
