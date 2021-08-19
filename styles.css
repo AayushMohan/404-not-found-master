@@ -1,27 +1,33 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+html{
+  font-size: 62.5%
 }
 
 body {
   font-family: "Space Mono", monospace;
+  box-sizing: border-box;
+  
 }
 
 /* Header Text */
 h3 {
   position: absolute;
-  width: 133px;
-  height: 25px;
-  left: 24px;
-  top: 20px;
+  width: 13.3rem;
+  height: 2.5rem;
+  left: 2.4rem;
+  top: 2rem;
 
   font-family: Inconsolata;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 25px;
-  letter-spacing: -0.08em;
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.08rem;
   text-transform: uppercase;
 
   color: #333333;
@@ -29,8 +35,8 @@ h3 {
 
 /* Scarecrow Image*/
 img {
-  width: 286.83px;
-  height: 283px;
+  width: 28.6rem;
+  height: 28.6rem;
   position: absolute;
   left: 11.73%;
   right: 11.78%;
@@ -41,32 +47,32 @@ img {
 /* Main Text */
 h1 {
   position: absolute;
-  width: 350px;
-  height: 142px;
-  left: 24px;
-  top: 407px;
+  width: 3.5rem;
+  height: 14.2rem;
+  left: 2.4rem;
+  top: 40.7rem;
 
   font-family: Space Mono;
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
-  line-height: 71px;
-  letter-spacing: -0.035em;
+  font-size: 4.8rem;
+  line-height: 7.1rem;
+  letter-spacing: -0.035rem;
   color: #333333;
 }
 
 p {
   position: absolute;
-  width: 328px;
-  height: 81px;
-  left: 23px;
-  top: 579px;
+  width: 32.8rem;
+  height: 8.1rem;
+  left: 2.3rem;
+  top: 57.9rem;
 
   font-family: Space Mono;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
   letter-spacing: -0.035em;
   color: #4f4f4f;
 }
@@ -74,16 +80,16 @@ p {
 /* Footer Section */
 footer {
   position: absolute;
-  width: 216px;
-  height: 68px;
-  left: 24px;
-  top: 726px;
+  width: 21.6rem;
+  height: 6.8rem;
+  left: 2.4rem;
+  top: 72.6rem;
 }
 
 button {
   position: absolute;
-  width: 216px;
-  height: 68px;
+  width: 21.6rem;
+  height: 6.8rem;
   background: #333333;
   border-style: none;
 }
@@ -92,11 +98,11 @@ span {
   font-family: Space Mono;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
   /* identical to box height */
 
-  letter-spacing: -0.035em;
+  letter-spacing: -0.035rem;
   text-transform: uppercase;
 
   color: #ffffff;
@@ -104,15 +110,15 @@ span {
 
 h4 {
   position: absolute;
-  width: 287px;
-  height: 17px;
-  top: 208px;
+  width: 28.7rem;
+  height: 1.7rem;
+  top: 20.8rem;
 
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
   /* identical to box height */
 
   text-align: center;
@@ -122,27 +128,27 @@ h4 {
 
 /* Media Queries */
 
-@media (min-width: 480px) {
+@media (min-width: 48rem) {
   /* Header Text */
   h3 {
     position: absolute;
-    width: 133px;
-    height: 25px;
-    left: 77px;
-    top: 40px;
+    width: 13.3rem;
+    height: 2.5rem;
+    left: 7.7rem;
+    top: 4rem;
     font-family: Inconsolata;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 25px;
-    letter-spacing: -0.08em;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.08rem;
     text-transform: uppercase;
   }
 
   /* Scarecrow  Image*/
   img {
-    width: 539.22px;
-    height: 447.43px;
+    width: 53.9rem;
+    height: 44.7rem;
     position: absolute;
     left: 5.35%;
     right: 57.21%;
@@ -153,55 +159,55 @@ h4 {
   /* Main Text */
   h1 {
     position: absolute;
-    width: 586px;
-    height: 190px;
-    left: 735px;
-    top: 200px;
+    width: 58.6rem;
+    height: 19rem;
+    left: 73.5rem;
+    top: 20rem;
 
     font-family: Space Mono;
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
-    line-height: 95px;
-    letter-spacing: -0.035em;
+    font-size: 6.4rem;
+    line-height: 9.5rem;
+    letter-spacing: -0.035rem;
   }
 
   p {
     position: absolute;
-    width: 381px;
-    height: 108px;
-    left: 736px;
-    top: 431px;
+    width: 38.1rem;
+    height: 10.8rem;
+    left: 73.6rem;
+    top: 43.1rem;
 
     font-family: Space Mono;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: -0.035em;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    letter-spacing: -0.035rem;
   }
 
   /* Footer Section */
   button {
     position: absolute;
-    width: 216px;
-    height: 68px;
-    left: 720px;
-    bottom: 100px;
+    width: 21.6rem;
+    height: 6.8rem;
+    left: 72rem;
+    bottom: 10rem;
   }
 
   h4 {
     position: absolute;
-    width: 287px;
-    height: 17px;
-    left: 577px;
-    top: 139px;
+    width: 28.7rem;
+    height: 1.7rem;
+    left: 57.7rem;
+    top: 13.9rem;
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
     /* identical to box height */
 
     text-align: center;
