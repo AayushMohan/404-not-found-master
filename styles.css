@@ -1,0 +1,129 @@
+:root {
+  --grey-1: #333333;
+  --grey-2: #4f4f4f;
+  --grey-3: #bdbdbd;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  animation: moveInBottom 2s ease-out;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+.container {
+  margin: 2rem 0 2.4rem 2.3rem;
+  position: relative;
+}
+
+/* Header Text */
+h3 {
+  font-family: Inconsolata;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color: var(--grey-1);
+  font-weight: 700;
+}
+
+/* Scarecrow Image*/
+img {
+  width: 28.6rem;
+  margin: 4em 4em 4em 3em;
+  align-items: center;
+}
+
+/* Main Text */
+h1 {
+  font-size: 4.4rem;
+  color: var(--grey-1);
+}
+
+p {
+  font-size: 1.8rem;
+  margin: 3rem auto;
+  color: var(--grey-2);
+}
+
+/* Footer Section */
+
+button {
+  background-color: var(--grey-1);
+  color: #fff;
+  padding: 2.5rem 4rem;
+  margin: 3rem 3rem 8rem 2.3rem;
+  text-transform: uppercase;
+  font-family: "Space Mono", monospace;
+  font-size: 1.4rem;
+}
+
+h4 {
+  color: var(--grey-3);
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 2rem auto;
+  width: 28.7rem;
+}
+
+/* Media Queries */
+
+@media (min-width: 48rem) {
+  /* Margin top */
+  /* img,
+  h1,
+  p {
+    margin: 5rem;
+    padding-top: 10rem;
+  } */
+
+  /* Scarecrow  Image*/
+  img {
+    width: 53.9rem;
+  }
+
+  /* Main Text */
+  h1 {
+    position: absolute;
+    float: right;
+    right: 4rem;
+    top: 8rem;
+    width: 50rem;
+  }
+
+  p {
+    position: absolute;
+    bottom: 9em;
+    right: 16rem;
+    width: 38.1rem;
+    float: right;
+  }
+
+  /* Footer Section */
+  footer {
+    position: relative;
+  }
+  button {
+    position: absolute;
+    right: 21em;
+    bottom: 4em;
+  }
+}
